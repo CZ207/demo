@@ -4,3 +4,8 @@
   --font-sans: "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Noto Serif SC", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
+
+body.custom-cursor-active,
+body.custom-cursor-active * {
+  cursor: none !important;
+}

@@ -8,10 +8,12 @@ import Home from './pages/Home';
 import Architecture from './pages/Architecture';
 import History from './pages/History';
 import Exhibition from './pages/Exhibition';
+import MouseEffects from './components/MouseEffects';
 
 export default function App() {
   return (
     <Router>
+      <MouseEffects />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/architecture" element={<Architecture />} />
